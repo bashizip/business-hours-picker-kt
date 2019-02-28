@@ -1,7 +1,7 @@
 # Business Hours Picker
 A business hours picker lib for android *
 
-[![](https://jitpack.io/v/bashizip/business-hours-picker.svg)](https://jitpack.io/#bashizip/business-hours-picker)
+[![](https://jitpack.io/v/bashizip/business-hours-picker-kt.svg)](https://jitpack.io/#bashizip/business-hours-picker-kt)
 
 Want to add a business hours picker and viewer in your application? Try this library ! 
 
@@ -31,7 +31,7 @@ Step 1 : Add jitpack to your build.gradle file
   
 
   
- 	implementation 'com.github.bashizip:business-hours-picker:v1.0.0-beta.2'
+ 	 implementation 'com.github.bashizip:business-hours-picker-kt:Tag'
 
    
   ## How to use it 
