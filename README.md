@@ -1,5 +1,5 @@
 # Business Hours Picker
-A business hours picker lib for android *
+A business hours picker lib for Android 
 
 [![](https://jitpack.io/v/bashizip/business-hours-picker-kt.svg)](https://jitpack.io/#bashizip/business-hours-picker-kt)
 
