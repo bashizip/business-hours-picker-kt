@@ -82,35 +82,18 @@ First  Add the picker and the viewer you want to use in your layout files. The l
         android:layout_height="wrap_content"/>
   
      
-  Then in your java code :
   
   **The picker activity of fragment**
   
 
-	  BusinessHoursWeekPicker bh_picker = findViewById(R.id.bh_picker);
-	  Button btn_apply = findViewById(R.id.btn_apply);
-	     btn_apply.setOnClickListener(view -> {
-		   List<BusinessHours> bhs = bh_picker.getBusinessHoursList();
-
-		   // Here do your stuffs with the list
-
-	   //In this example we pass it to another activity for viewing
-
-	   Intent intent = new Intent(this, ViewerActivity.class);
-		    intent.putExtra(BH_LIST, (Serializable) bhs);
-		    startActivity(intent);
-
-		});
- 		
+	    val bhs = mBusinessHoursWeekView.businessHoursList
 	
         
    **The viewer activity or fragment**
    
-   
-        List<BusinessHours> businessHoursList = getList();
-       
+  
        // Just call the setModel method and it's done !
-       businessHoursWeekView.setModel(businessHoursList);
+      businessHoursWeekView.setModel(businessHoursList)
 
 
 
@@ -119,7 +102,7 @@ See the full sample app for more details.
   ## Potential impovements
 
     * More styling
-    * Kotlin version
+    * Kotlin version (here it is :-) )
 
 
   ## Licence
